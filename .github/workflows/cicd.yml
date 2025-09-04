@@ -9,7 +9,7 @@ on:
 env:
   IMAGE_NAME: sample-node-app
   REGISTRY: docker.io
-  SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}  # Add your SonarQube token as a secret
+  SONAR_TOKEN: ${{ secrets.sqa_d997f711479e8c3de78ccaaaf497046d36cef794 }}  # Add your SonarQube token as a secret
 
 jobs:
   build-and-test:
